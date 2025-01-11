@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension method="upgrade" group="vmpayment" type="plugin" version="2.5">
+    <name>VM Payment - 9Psb</name>
+    <creationDate>October 2024</creationDate>
+    <author>9Psb Developers</author>
+    <authorUrl>https://www.9psb.com.ng/</authorUrl>
+    <copyright>Copyright (C) 2024 9psb Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.0.5</version>
+
+    <description>
+        <![CDATA[
+            Enables you to easily integrate 9PSB as a payment gateway on your online store, allowing customers to make payments using various methods such as Credit/Debit cards, Bank Transfers, Mobile Payments, and more. <a href="https://www.9psb.com.ng/" target="_blank">Click here to sign up for a 9PSB account</a>.
+        ]]>
+    </description>
+
+    <languages>
+        <language tag="en-GB">language/en-GB.plg_vmpayment_9psb.ini</language>
+    </languages>
+
+    <files>
+        <folder>language</folder>
+        <filename plugin="9psb">9psb.php</filename>
+    </files>
+
+    <vmconfig>
+        <fields name="params">
+            <fieldset name="payment" addfieldpath="/plugins/vmpayment/9psb/9psb/fields">
+                <field type="vmtitle"
+                       description=""
+                       default="VMPAYMENT_9PSB_CONFIG"/>
+                <field type="text"
+                       name="secret_key"
+                       description="VMPAYMENT_9PSB_SECRET_KEY_DESC"
+                       default=""
+                       label="VMPAYMENT_9PSB_SECRET_KEY_LBL"
+                       size="50"/>
+                <field type="text"
+                       name="public_key"
+                       description="VMPAYMENT_9PSB_PUBLIC_KEY_DESC"
+                       default=""
+                       label="VMPAYMENT_9PSB_PUBLIC_KEY_LBL"
+                       size="50"/>
+            </fieldset>
+        </fields>
+    </vmconfig>
+
+    <updateservers>
+        <server type="extension" name="VirtueMart plg_vmpayment_9psb Update Site">
+            <![CDATA[https://www.9psb.com.ng/version.xml]]></server>
+    </updateservers>
+</extension>
