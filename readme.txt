@@ -4,7 +4,7 @@ The 9PSB Joomla Payment Gateway plugin allows you to easily integrate 9PSB as a 
 ---
 
 ## Plugin Information
-- **Version:** 1.0.5
+- **Version:** 1.0.0
 - **Author:** 9psb Developers
 - **Website:** [https://9psb.com.ng](https://9psb.com.ng)
 - **License:** GNU General Public License v2 or later
@@ -51,7 +51,7 @@ The 9PSB Joomla Payment Gateway plugin allows you to easily integrate 9PSB as a 
 ---
 
 ## Changelog
-### Version 1.0.5
+### Version 1.0.0
 - Improved compatibility with Joomla 4.x.
 - Security improvements.
 - Minor bug fixes.
