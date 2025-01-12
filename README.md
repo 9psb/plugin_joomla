@@ -1,5 +1,5 @@
 # 9PSB Payment Gateway for Joomla
-The 9PSB Joomla Payment Gateway plugin allows you to easily integrate 9PSB as a payment gateway on your Joomla website, enabling secure transactions through credit/debit cards, bank transfers, mobile payments, and more.
+The 9PSB Joomla Payment Gateway plugin allows you to easily integrate 9PSB as a payment gateway on your Joomla website, enabling secure transactions through bank transfers, mobile payments, and more.
 
 ---
 
